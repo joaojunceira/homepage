@@ -1,0 +1,91 @@
+#baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Personal page"
+
+baseurl = "/"
+theme = "hello-friend-ng"
+
+disableRSS = true
+enableRobotsTXT = true
+enableGitInfo   = false
+
+canonifyURLs = true
+
+[params]
+  dateform        = "Jun 3, 2019"
+  dateformShort   = "Jun 3"
+  dateformNum     = "2019-06-03"
+  dateformNumTime = "2019-06-03 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Personal page of João Junceira"
+  homeSubtitle = "Software Engineer"
+  keywords = "homepage, blog, engineering, code, development, programming"
+  images = [""]
+  
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+[author]
+  name = "João Junceira"
+
+# Social icons
+[[params.social]]
+name = "twitter"
+url  = "https://twitter.com/joaojunceira"
+
+#[[params.social]]
+#name = "email"
+#url  = "mailto:nobody@example.com"
+
+[[params.social]]
+name = "github"
+url  = "https://github.com/joaojunceira"
+
+[[params.social]]
+name = "linkedin"
+url  = "https://www.linkedin.com/in/joaojunceira/"
+
+[languages]
+  [languages.en]
+    title = "João Junceira"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+    
+    [languages.en.params.logo]
+      logoText = "$ whoami"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About me"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "presentations"
+        name = "Presentations"
+        url = "/presentations"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
