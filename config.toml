@@ -9,8 +9,6 @@ disableRSS = true
 enableRobotsTXT = true
 enableGitInfo   = false
 
-publishDir = "docs"
-
 canonifyURLs = true
 
 [params]
