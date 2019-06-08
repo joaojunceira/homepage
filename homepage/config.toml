@@ -9,6 +9,8 @@ disableRSS = true
 enableRobotsTXT = true
 enableGitInfo   = false
 
+canonifyURLs = true
+
 [params]
   dateform        = "Jun 3, 2019"
   dateformShort   = "Jun 3"
@@ -18,7 +20,7 @@ enableGitInfo   = false
   # Metadata mostly used in document's head
   description = "Personal page of João Junceira"
   homeSubtitle = "Software Engineer"
-  keywords = "homepage, blog, science, informatics, development, programming"
+  keywords = "homepage, blog, engineering, code, development, programming"
   images = [""]
   
   # Directory name of your blog content (default is `content/posts`)
