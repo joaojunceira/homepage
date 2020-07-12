@@ -20,7 +20,7 @@ canonifyURLs = true
   # Metadata mostly used in document's head
   description = "Personal page of João Junceira"
   homeSubtitle = "Software Engineer"
-  keywords = "homepage, blog, engineering, code, development, programming"
+  keywords = "homepage, blog, engineering, code, development, programming, business"
   images = [""]
   
   # Directory name of your blog content (default is `content/posts`)
@@ -32,9 +32,9 @@ canonifyURLs = true
   name = "João Junceira"
 
 # Social icons
-[[params.social]]
-name = "twitter"
-url  = "https://twitter.com/joaojunceira"
+#[[params.social]]
+#name = "twitter"
+#url  = "https://twitter.com/joaojunceira"
 
 #[[params.social]]
 #name = "email"
